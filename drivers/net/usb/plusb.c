@@ -158,4 +158,47 @@ module_usb_driver(plusb_driver);
 
 MODULE_AUTHOR("David Brownell");
 MODULE_DESCRIPTION("Prolific PL-2301/2302/25A1/27A1 USB Host to Host Link Driver");
+/*
+
+
+https://superuser.com/a/1165890
+direct host-to-host connection
+http://www.geeks.com/details.asp?invtid=BLU-USB20-DL&cat=CBL
+https://github.com/torvalds/linux/blob/master/drivers/net/usb/plusb.c
+
+https://www.amazon.de/Goobay-Aktives-USB-Data-Link-Kabel-Daten%C3%BCbertragung/dp/B00PI7ZB9U
+https://prolificusa.com/product/pl27a1-super-speed-usb-host-host-bridge-controller/
+
+https://prolificusa.com/product/pl27a1-super-speed-usb-host-host-bridge-controller/
+
+https://prolificusa.com/product/te-c0372-high-speed-usb-2-0-host-host-bridge-cable-pl25a1-chipset/
+
+https://prolificusa.com/product/te-c0362-superspeed-usb-3-0-host-host-bridge-cable-pl2701-chipset/
+
+https://prolificusa.com/product/te-c0363-superspeed-usb-3-0-host-host-bridge-cable-pl27a1-chipset/
+
+---
+
+
+https://prolificusa.com/product-category/cables/usb-connectivity-cables/
+
+TE-C0372 High Speed USB 2.0 Host to Host Bridge Cable (PL25A1 Chipset)
+
+READ MOREREQUEST QUOTE
+
+￼
+
+TE-C0362 Superspeed USB 3.0 Host to Host Bridge Cable (PL2701 Chipset)
+
+READ MOREREQUEST QUOTE
+
+￼
+
+TE-C0363 Superspeed USB 3.0 Host to Host Bridge Cable (PL27A1 Chipset)
+
+READ MOREREQUEST QUOTE
+
+https://prolificusa.com/product-category/cables/usb-connectivity-cables/
+
+*/
 MODULE_LICENSE("GPL");
